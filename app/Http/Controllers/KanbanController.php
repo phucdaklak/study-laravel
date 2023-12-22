@@ -15,7 +15,13 @@ class KanbanController extends Controller
 
     public function store(Request $request)
     {
-      
+        $data = request->all();
+
+        Kanban::create($data);
+
+        return [
+            'response' => Reponse::HTTP_OK
+        ]
     }
 
     public function update(Request $request)
