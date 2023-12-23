@@ -26,7 +26,11 @@ class KanbanController extends Controller
 
     public function update(Request $request)
     {
-      
+      $dataUpdate = $request->all()->validated();
+
+      Kanban::update($dataUpdate);
+
+      return Response::HTTP_OK;
     }
 
     public function show(Request $request)
