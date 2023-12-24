@@ -33,9 +33,11 @@ class KanbanController extends Controller
       return Response::HTTP_OK;
     }
 
-    public function show(Request $request)
+    public function show(Request $request, $id)
     {
-      
+        $data = Kanban::find($id);
+
+        return $data->toArray();
     }
 
     public function destroy(Request $request)
