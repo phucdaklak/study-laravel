@@ -42,6 +42,6 @@ class KanbanController extends Controller
 
     public function destroy(Request $request)
     {
-      
+        return Kanban::find($request->id)->delete();
     }
 }
