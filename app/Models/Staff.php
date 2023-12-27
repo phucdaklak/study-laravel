@@ -21,6 +21,8 @@ class Staff extends Models
         'name',
         'email',
         'password',
+        'first_name',
+        'last_name'
     ];
 
     /**
