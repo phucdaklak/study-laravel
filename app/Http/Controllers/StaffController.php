@@ -44,4 +44,9 @@ class StaffController extends Controller
     {
         return Staff::find($request->id)->delete();
     }
+
+    public function checkExists(Builder $query)
+    {
+        return $query->exists();
+    }
 }
