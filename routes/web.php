@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 
 Route::apiResoure('staff', [StaffController::class]);
+Route::apiResoure('candidate', [StaffController::class]);
