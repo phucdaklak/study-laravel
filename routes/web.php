@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::apiResoure('staff', [StaffController::class]);
 Route::apiResoure('candidate', [StaffController::class]);
+Route::apiResoure('kanban', [KanbanController::class]);
