@@ -11,5 +11,15 @@ class HomeService
     {
         
     }
+
+    public function show()
+    {
+
+    }
+
+    public function update()
+    {
+        
+    }
 }
 
