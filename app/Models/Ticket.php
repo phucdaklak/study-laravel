@@ -22,7 +22,9 @@ class Ticket extends Models
         'email',
         'password',
         'first_name',
-        'last_name'
+        'last_name',
+        'staff_id',
+        'job_id',
     ];
 
     /**
