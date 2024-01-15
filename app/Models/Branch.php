@@ -25,6 +25,7 @@ class Branch extends Models
         'last_name',
         'parent_id',
         'divivion_id',
+        'staff_id',
     ];
 
     /**
