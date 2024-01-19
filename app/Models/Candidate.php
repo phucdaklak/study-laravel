@@ -25,6 +25,7 @@ class Candidate extends Models
         'last_name',
         'branch_id',
         'staff_id',
+        'ticket_id,
     ];
 
     /**
