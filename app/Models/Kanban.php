@@ -21,7 +21,8 @@ class Kanban extends Authenticatable
         'name',
         'email',
         'password',
-        'ticket_id'
+        'ticket_id',
+        'staff_id',
     ];
 
     /**
