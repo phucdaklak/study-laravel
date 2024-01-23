@@ -24,6 +24,7 @@ class Kanban extends Authenticatable
         'ticket_id',
         'staff_id',
         'candidate_id',
+        'kanban_id',
     ];
 
     /**
