@@ -22,7 +22,8 @@ class Staff extends Models
         'email',
         'password',
         'first_name',
-        'last_name'
+        'last_name',
+        'kanban_id',
     ];
 
     /**
