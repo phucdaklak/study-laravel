@@ -25,6 +25,7 @@ class Staff extends Models
         'last_name',
         'kanban_id',
         'ticket_id',
+        'branch_id',
     ];
 
     /**
