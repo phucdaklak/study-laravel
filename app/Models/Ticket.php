@@ -27,6 +27,7 @@ class Ticket extends Models
         'job_id',
         'kanban_id',
         'candidate_id',
+        'user_id',
     ];
 
     /**
