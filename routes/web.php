@@ -22,3 +22,4 @@ Route::apiResoure('staff', [StaffController::class]);
 Route::apiResoure('candidate', [StaffController::class]);
 Route::apiResoure('kanban', [KanbanController::class]);
 Route::apiResoure('home', [HomeController::class]);
+Route::apiResoure('ticket', [TicketController::class]);
