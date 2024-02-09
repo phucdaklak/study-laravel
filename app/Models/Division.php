@@ -23,6 +23,7 @@ class User extends Authenticatable
         'password',
         'branch_id',
         'ticket_id',
+        'kanban_id',
     ];
 
     /**
