@@ -24,6 +24,7 @@ class User extends Authenticatable
         'branch_id',
         'ticket_id',
         'kanban_id',
+        'candidate_id',
     ];
 
     /**
